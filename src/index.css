@@ -1,13 +1,139 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* navbar */
+
+.nav-container {
+  height: 72px;
+}
+
+.logo {
+  margin-left: 72px;
+}
+
+.search-container {
+  width: 360px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 21px;
+  background: #f2f2f2;
+}
+
+.search-container img {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  margin: 10px 14px 10px 0px;
+}
+
+.search-container input {
+  color: #5c5c5c;
+  font-family: IBM Plex Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background-color: transparent;
+  border: none;
+  width: 70%;
+  height: 100%;
+}
+.create-account {
+  margin-right: 96px;
+  width: 183px;
+  height: 21px;
+  color: #2e2e2e;
+  text-align: right;
+  font-family: IBM Plex Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.blue {
+  color: #2f6ce5;
+  font-weight: 700;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+/* header */
+.header-container {
+  position: relative;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.45) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url("./assets/images/Rectangle 2.svg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 440px;
+}
+
+.header-text {
+  color: #fff;
+  font-family: IBM Plex Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46.8px;
+  position: absolute;
+  top: 286px;
+  left: 200px;
+}
+
+.header-text-small {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+}
+
+@media (max-width: 576px) {
+  .header-container {
+    position: relative;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.45) 0%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url("./assets/images/Rectangle-mobile-2.svg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 236px;
+  }
+
+  .header-text {
+    line-height: 46.8px;
+    color: #fff;
+    font-family: IBM Plex Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    position: absolute;
+    top: 164px;
+    left: 16px;
+  }
+
+  .header-text-small {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.6px;
+  }
 }
