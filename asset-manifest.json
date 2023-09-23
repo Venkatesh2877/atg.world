@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/atg.world/static/css/main.473d5908.css",
+    "main.js": "/atg.world/static/js/main.e8f9f99e.js",
+    "static/media/Rectangle 3 (1).svg": "/atg.world/static/media/Rectangle 3 (1).6f6df467581d44c7a1c9d8f6077c663e.svg",
+    "static/media/Rectangle 5.svg": "/atg.world/static/media/Rectangle 5.e701abd77175dff44a7954f5410b31e3.svg",
+    "static/media/Rectangle 5 (1).svg": "/atg.world/static/media/Rectangle 5 (1).6d1296a1f65833c7ce0f4e01e489cb4c.svg",
+    "static/media/Rectangle 2.svg": "/atg.world/static/media/Rectangle 2.df6234acad548b959c86.svg",
+    "static/media/Rectangle-mobile-2.svg": "/atg.world/static/media/Rectangle-mobile-2.81df408f33f41bdd3260.svg",
+    "static/media/Rectangle 3.svg": "/atg.world/static/media/Rectangle 3.4dcc91c137f33106a1570d998f0866fa.svg",
+    "static/media/🔬️ Education.svg": "/atg.world/static/media/🔬️ Education.4883a9e79b13a91c252806bf0e6eda73.svg",
+    "static/media/✍️ Article.svg": "/atg.world/static/media/✍️ Article.2400e7a47aef3d451b549ea9a8a7ef4b.svg",
+    "static/media/whole.svg": "/atg.world/static/media/whole.88b697be80e95f531a9c021d39bebdfb.svg",
+    "static/media/baseline-group_add-24px.svg": "/atg.world/static/media/baseline-group_add-24px.d93b9cb700a5771ee449556a9323c3e7.svg",
+    "static/media/visibility_24px_outlined.svg": "/atg.world/static/media/visibility_24px_outlined.6cbc37d6694c61436d2ec2d998ab20fc.svg",
+    "static/media/baseline-search-24px.svg": "/atg.world/static/media/baseline-search-24px.fcceb2c7938b76f36234de4c326df145.svg",
+    "index.html": "/atg.world/index.html",
+    "static/media/Oval.svg": "/atg.world/static/media/Oval.1de68df78e2c44644e28c76c4681b4d7.svg",
+    "static/media/baseline-arrow_drop_down-24px.svg": "/atg.world/static/media/baseline-arrow_drop_down-24px.1007b6a2866f35725946706e42e914ab.svg",
+    "static/media/arrow_back.svg": "/atg.world/static/media/arrow_back.11e4f35b912c58f96f3ecad17dd4277c.svg",
+    "static/media/Path.svg": "/atg.world/static/media/Path.2bca455c3c8281449a43cbe9e83402b7.svg",
+    "static/media/Rectangle.svg": "/atg.world/static/media/Rectangle.3ec284399266edd8c8ce6985edd8da11.svg",
+    "main.473d5908.css.map": "/atg.world/static/css/main.473d5908.css.map",
+    "main.e8f9f99e.js.map": "/atg.world/static/js/main.e8f9f99e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.473d5908.css",
+    "static/js/main.e8f9f99e.js"
+  ]
+}
