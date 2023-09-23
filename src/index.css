@@ -147,7 +147,6 @@ body {
 .body-container {
   width: 80%;
   margin: 0 auto;
-  border: 2px red solid;
 }
 
 /* section */
@@ -239,5 +238,145 @@ body {
 
   .filter img {
     padding-left: 10px;
+  }
+}
+
+/* card */
+
+.container {
+  margin: 0px;
+}
+.card {
+  margin-top: 20px;
+  border-radius: 0px 0px 4px 4px;
+  width: 100%;
+  padding: 0px;
+}
+
+.typeImage {
+  width: 75px;
+  height: 25px;
+  margin: 10px;
+}
+
+.card-body {
+  padding: 5px;
+}
+
+.card-title {
+  color: #000;
+  font-family: IBM Plex Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 134.167%; /* 29.517px */
+  width: 500px;
+}
+
+.dot {
+  width: 28px;
+  height: 28px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.card.text {
+  color: #5c5c5c;
+  font-family: IBM Plex Sans;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 134.167%; /* 25.492px */
+}
+.profile {
+  color: #000;
+  font-family: IBM Plex Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.profile img {
+  width: 48px;
+  height: 48px;
+  padding: 5px;
+}
+
+.views {
+  color: #525252;
+  text-align: right;
+  font-family: IBM Plex Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 44px;
+}
+
+.views img {
+  margin-right: 10px;
+}
+
+.share {
+  width: 42px;
+  height: 36px;
+  margin-right: 20px;
+}
+
+@media (max-width: 576px) {
+  .typeImage {
+    width: 60px;
+    height: 19px;
+  }
+  .card-title {
+    color: #212529;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .card-text {
+    color: #495057;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .profile {
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .profile img {
+    width: 48px;
+    height: 48px;
+    padding: 5px;
+  }
+
+  .views {
+    color: #525252;
+    text-align: right;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 44px;
+  }
+
+  .views img {
+    margin-right: 10px;
+  }
+
+  .share {
+    width: 42px;
+    height: 36px;
+    margin-right: 20px;
   }
 }

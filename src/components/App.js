@@ -5,6 +5,7 @@ import Card from "./Card";
 import Smallcard from "./Smallcard";
 import Location from "./Location";
 import Recommend from "./Recommend";
+import { data } from "../data/CardData";
 
 function App() {
   return (
@@ -18,8 +19,10 @@ function App() {
         <Section />
         <div className="container">
           <div className="row">
-            <div className="col-sm-9">
-              <Card />
+            <div className="col-sm-9" style={{ padding: 0 }}>
+              {data.map((da) => (
+                <Card d={da} />
+              ))}
               <Smallcard />
             </div>
             <div className="col-sm-3 d-none d-sm-block">
