@@ -9,12 +9,12 @@ import Recommend from "./Recommend";
 function App() {
   return (
     <div className="App">
-      <div className="d-none d-lg-block">
+      <div>
         <Navbar />
       </div>
 
       <Header />
-      <div>
+      <div className="body-container">
         <Section />
         <div className="container">
           <div className="row">
