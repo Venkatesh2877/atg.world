@@ -25,7 +25,7 @@ function App() {
               ))}
               <Smallcard />
             </div>
-            <div className="col-sm-3 d-none d-sm-block">
+            <div className="col-sm-3 d-none d-ls-block">
               <Location />
               <Recommend />
             </div>

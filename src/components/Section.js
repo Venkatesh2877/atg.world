@@ -6,7 +6,7 @@ import backArrow from "../assets/images/arrow_back.svg";
 export default function Section() {
   return (
     <div className="d-flex justify-content-between border-bottom sectionContainer">
-      <div className="d-none d-sm-block left ">
+      <div className="d-none d-lg-block left ">
         <span>All Posts(32)</span>
         <span>Article</span>
         <span>Event</span>
@@ -14,7 +14,7 @@ export default function Section() {
         <span>Job</span>
       </div>
 
-      <div className="right d-none d-sm-block">
+      <div className="right d-none d-lg-block">
         <button type="button" class="btn btn-color btn-sm">
           Write a post
           <img src={downArrow} alt="down-arrow" />
@@ -25,7 +25,7 @@ export default function Section() {
         </button>
       </div>
 
-      <div className="d-block d-sm-none mobileSection">
+      <div className="d-block d-lg-none mobileSection">
         <img src={backArrow} alt="" className="backarrow" />
         <button type="button" class="btn btn-outline-light btn-sm">
           Join Group
